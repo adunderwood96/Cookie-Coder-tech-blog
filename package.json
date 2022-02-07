@@ -8,5 +8,24 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3",
     "sequelize": "^6.15.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "mod-14",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adunderwood96/tech-news-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adunderwood96/tech-news-blog/issues"
+  },
+  "homepage": "https://github.com/adunderwood96/tech-news-blog#readme"
 }
