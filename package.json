@@ -13,7 +13,6 @@
   "scripts": {
     "start": "node server.js",
     "seed": "node seeds/seeds.js"
-
   },
   "name": "mod-14",
   "description": "",
@@ -29,6 +28,5 @@
   "bugs": {
     "url": "https://github.com/adunderwood96/tech-news-blog/issues"
   },
-  "homepage": "https://github.com/adunderwood96/tech-news-blog#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/adunderwood96/tech-news-blog#readme"
 }
