@@ -11,7 +11,9 @@
     "sequelize": "^6.15.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/seeds.js"
+
   },
   "name": "mod-14",
   "description": "",

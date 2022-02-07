@@ -8,7 +8,7 @@ const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 
 // connection to db/session
-const sequelize = require('./config/connection');
+const sequelize = require('./config/connection.js');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
