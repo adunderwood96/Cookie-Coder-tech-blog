@@ -14,7 +14,7 @@ body {
 
 /* navbar style */
 .navbar-brand {
-  font-size: 3rem;
+  font-size: 3em;
 }
 .navbar-brand a {
   color: black;
@@ -23,12 +23,16 @@ body {
   cursor: pointer;
 }
 
-.navbar-brand:hover {
+#logo:hover {
   color: #feada6;
 }
 
+.nav-item a {
+    color: #ee9ca7;
+}
+
 .nav-item a:hover {
-  color: #feada6;
+  color: #abbaab;
 }
 
 /* login style */

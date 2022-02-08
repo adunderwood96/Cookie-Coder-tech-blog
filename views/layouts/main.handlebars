@@ -11,11 +11,13 @@
 </head>
 
 <body>
+  {{!-- navbar --}}
   <header class="navbar">
     <div class="container-fluid">
       <h4 class="navbar-brand" id="logo">
-        <a href="/">The Cookie Coder</a>
-        <i class="fas fa-laptop-code"></i>
+        <a href="/">The Cookie Coder
+          <i class="fas fa-laptop-code" id="logo"></i>
+        </a>
       </h4>
       <nav class="nav justify-content-end">
         <li class="nav-item"><a href="/" class="nav-link"><i class="fas fa-home"></i>
@@ -34,9 +36,10 @@
       </nav>
   </header>
   <main>
+    {{!-- main content --}}
     {{{body}}}
   </main>
-
+  {{!-- footer --}}
   <footer class="text-center">
     © 2022 Ashley Underwood
   </footer>
