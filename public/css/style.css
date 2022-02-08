@@ -1,4 +1,12 @@
+body {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
 .post-list{
     list-style: none;
-    margin: auto;
+    margin: 5rem;
+}
+
+.card {
+    margin: 3em;
 }
