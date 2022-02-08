@@ -3,8 +3,13 @@
 }
 
 body {
-    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-    background-blend-mode: screen;
+  background-image: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+  background-blend-mode: screen;
 }
 
 /* navbar style */
@@ -26,12 +31,13 @@ body {
   color: #feada6;
 }
 
-/* post/comment style */
+/* login style */
 .input-group {
   margin: 2em;
   max-width: 50rem;
 }
 
+/* post/comment style */
 .post-list {
   list-style: none;
   margin: 2em;
@@ -47,18 +53,25 @@ body {
 }
 
 .card-header {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 .card-header a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-header a:hover {
+  color: #feada6;
 }
 
 /* button style */
 button {
   border-radius: 5px;
+  padding: 10px 25px;
+  font-size: 1em;
 }
+
 #login-btn,
 #post,
 #signup-btn {
@@ -68,9 +81,9 @@ button {
 .button {
   background-image: linear-gradient(
     to right,
-    #abbaab 0%,
-    #ffffff 51%,
-    #abbaab 100%
+    #ee9ca7 0%,
+    #ffdde1 51%,
+    #ee9ca7 100%
   );
 }
 
@@ -85,6 +98,6 @@ button {
 
 .button:hover {
   background-position: right center;
-  color: #feada6;
+  color: #abbaab;
   text-decoration: none;
 }
