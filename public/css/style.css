@@ -3,7 +3,8 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
 }
 
 /* navbar style */
@@ -40,6 +41,18 @@ body {
 .card {
   margin: 2em;
   border-radius: 10px;
+  background-color: #abbaab;
+  opacity: 75%;
+  border-color: #feada6;
+}
+
+.card-header {
+    font-size: 1.3em;
+}
+
+.card-header a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* button style */

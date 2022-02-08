@@ -25,12 +25,11 @@
   {{#if posts.length}}
     <section>
       <h2>Your Posts</h2>
-      <ul class="list-group">
+      <ul class="list-group-flush">
         {{#each posts as |post|}}
         <li class="list-group-item">
           {{> post-info post}}
-          <a href="/dashboard/edit/{{post.id}}" class="edit-link"><i class="fas fa-edit"></i> Edit Post</a><br><br>
-          
+          <a href="/dashboard/edit/{{post.id}}" class="edit-link"><i class="fas fa-edit"></i> Edit Post</a><br><br>          
         </li>
         {{/each}}
       </ul>
