@@ -1,12 +1,18 @@
 [
     {
+      "title": "Simplify the way you seed Tables!",
+      "post": "In your package.json file, under scripts add in 'seed': 'node seeds/{filename}' You can also use 'npm run seeds'!",
+      "userID": 1
+      
+    },
+    {
       "title": "Sequelize Data Types",
-      "post": "You can use data types such as INTEGER and STRING to define Sequelize models",
+      "post": "You can use data types such as INTEGER, VARCHAR(#), TEXT, and STRING to define Sequelize models",
       "userID": 1
     },
     {
-      "title": "Jest",
-      "post": "Using the npm package Jest, you can run tests on your code to make sure that it is working properly",
+      "title": "Object-Relational Mapping",
+      "post": "I have really loved learning about ORMs. It really simplified the way I create queries in SQL!",
       "userID": 2
     },
     {
