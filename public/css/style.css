@@ -1,12 +1,77 @@
-body {
-    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+* {
+  box-sizing: border-box;
 }
 
-.post-list{
-    list-style: none;
-    margin: 5rem;
+body {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+/* navbar style */
+.navbar-brand {
+  font-size: 3rem;
+}
+.navbar-brand a {
+  color: black;
+  margin-left: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: #feada6;
+}
+
+.nav-item a:hover {
+  color: #feada6;
+}
+
+/* post/comment style */
+.input-group {
+  margin: 2em;
+  max-width: 50rem;
+}
+
+.post-list {
+  list-style: none;
+  margin: 2em;
+  border-radius: 10px;
 }
 
 .card {
-    margin: 3em;
+  margin: 2em;
+  border-radius: 10px;
+}
+
+/* button style */
+button {
+  border-radius: 5px;
+}
+#login-btn,
+#post,
+#signup-btn {
+  margin-left: 2em;
+}
+
+.button {
+  background-image: linear-gradient(
+    to right,
+    #abbaab 0%,
+    #ffffff 51%,
+    #abbaab 100%
+  );
+}
+
+.button {
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 5px;
+  display: block;
+  border: none;
+}
+
+.button:hover {
+  background-position: right center;
+  color: #feada6;
+  text-decoration: none;
 }
