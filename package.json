@@ -12,7 +12,9 @@
   },
   "scripts": {
     "start": "node server.js",
-    "seed": "node seeds/seeds.js"
+    "seed": "node seeds/seeds.js",
+    "heroku-postbuild": "npm run seed"
+
   },
   "name": "mod-14",
   "description": "",
