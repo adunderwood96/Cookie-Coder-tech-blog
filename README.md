@@ -15,6 +15,7 @@
 A CMS-style tech blog that was built following MVC structure. Before logging in, users can view post but cannot interact with others. Once a user is logged-in they can interact with other users by commenting on their post as well as posting their own tech related post!
 
 ## Demo
+https://cookie-coder-tech-blog.herokuapp.com/
 
 ![Homepage](https://github.com/adunderwood96/tech-blog/blob/c89c17caa4181ad861ffe8084249b7b0573ccc0c/assets/images/homepage.png)
 ![login](https://github.com/adunderwood96/tech-blog/blob/c89c17caa4181ad861ffe8084249b7b0573ccc0c/assets/images/login.png)
